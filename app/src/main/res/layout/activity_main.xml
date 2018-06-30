@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Maths Function" />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/buttonsum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sum/Addition" />
+    <Button
+        android:id="@+id/buttonsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtraction" />
+    <Button
+        android:id="@+id/buttondiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Division" />
+    <Button
+        android:id="@+id/buttonmul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="multiplication" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
